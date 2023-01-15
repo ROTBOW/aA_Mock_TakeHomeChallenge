@@ -22,7 +22,7 @@ Then will need two main routes, coffee/, and posts/ as seen down here:
 | HTTP Method 	|     Route     	|      Parameters     	| Return                                                                	|
 |:-----------:	|:-------------:	|:-------------------:	|-----------------------------------------------------------------------	|
 |     GET     	| /post/ping        |          None        	| returns a {'status': 'good'}                                          	|
-|     GET     	| /post         	| order - [asc, desc] 	| index of all posts - default asc by title                             	|
+|     GET     	| /post         	| order - [asc, desc] 	| index of all posts - default asc by post date                             	|
 |     GET     	| /post/coffee      |     id or name   	    | return all posts with coffee having a matching id OR name - if both are given prioritize id              |
 |     GET     	| /post/\<id>   	|         None        	| Returns single post with matching id                                   	|
 |     POST    	| /post         	|         None        	| Creates a new post and returns it                                     	|

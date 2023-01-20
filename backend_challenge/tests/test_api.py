@@ -9,8 +9,8 @@ PORT = 8000
 
 calls = [
     '/coffee',
-    '/coffee/?year=1900',
-    '/coffee/black',
+    '/coffee/?order=desc',
+    '/coffee/2',
     '/post',
 ]
     
@@ -27,7 +27,7 @@ def test_status(test_input, expect):
 
     
 def test_get_black_coffee():
-    coffee = rq.get(f"{URL}:{PORT}/coffee/black").json()
+    coffee = rq.get(f"{URL}:{PORT}/coffee/1").json()
     for k in coffee:
         coffee = coffee[k]
         break

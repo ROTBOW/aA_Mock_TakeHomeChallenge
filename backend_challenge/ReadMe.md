@@ -1,6 +1,5 @@
 # App Academy Mock Takehome Backend Challenge
 
-## <b>You will have to complete this challenge before moving to the frontend challenge, the order is intentional and required.</b>
 
 Welcome to a/A's takehome backend challenge, Ann loves coffee, so, we're going to make her a coffee blog! You know they say that caffine is the lifeblood of a software engineer.
 

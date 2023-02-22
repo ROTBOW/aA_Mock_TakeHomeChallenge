@@ -8,11 +8,12 @@ A quick look at what it will look like,
 We will need two modals, one to create posts:
 <img src="./../assets/images/create_post_modal.png"><br/>
 and another to add new coffees:<br/>
+(Caffine percentage will need to be calculated by us! remember it's the percentage of caffine in 1 oz of that coffee)
 <img src="./../assets/images/create_coffee_modal.png">
 
 
 As seen in the first gif, you should be able to sort the post by date asc or desc.
-both posts and coffee should be able to handle cases where there is enough to fill the page.
+both posts and coffee should be able to handle cases where there is enough data to fill the page.
 try to clone the style as closely as possible.
 
 <b>bonus: Did you notice that we created a api call that lets us sort posts

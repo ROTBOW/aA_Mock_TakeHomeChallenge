@@ -8,7 +8,7 @@ A quick look at what it will look like,
 We will need two modals, one to create posts:
 <img src="./../assets/images/create_post_modal.png"><br/>
 and another to add new coffees:<br/>
-(Caffine percentage will need to be calculated by us! remember it's the percentage of caffine in 1 oz of that coffee)
+(Caffine percentage will need to be calculated by us! Remember it's the percentage of caffine in 1 oz of that coffee)
 <img src="./../assets/images/create_coffee_modal.png">
 
 
